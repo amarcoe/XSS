@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Form</title>
+</head>
+<body>
+    <h1>Enter Text and Submit</h1>
+    <form action="/submit" method="post">
+        <label for="inputText">Type something:</label>
+        <input type="text" id="inputText" name="inputText" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
